@@ -1,0 +1,17 @@
+   Name="ULS Gravity"   Type="Linear add"   "Is Auto"=No   "Load Name"="SW"   SF=1.35
+   Name="ULS Gravity"   "Load Name"="SDL"   SF=1.35
+   Name="ULS Gravity"   "Load Name"="LL"   SF=1.5
+   Name="ULS Wind 0"   Type="Linear add"   "Is Auto"=No   "Load Name"="SW"   SF=1.35
+   Name="ULS Wind 0"   "Load Name"="SDL"   SF=1.35
+   Name="ULS Wind 0"   "Load Name"="LL"   SF=1.05
+   Name="ULS Wind 0"   "Load Name"="WL_0"   SF=1.5
+   Name="ULS Wind 90"   Type="Linear add"   "Is Auto"=No   "Load Name"="SW"   SF=1.35
+   Name="ULS Wind 90"   "Load Name"="SDL"   SF=1.35
+   Name="ULS Wind 90"   "Load Name"="LL"   SF=1.05
+   Name="ULS Wind 90"   "Load Name"="WL_90"   SF=1.5
+   Name="SLS Characteristic"   Type="Linear add"   "Is Auto"=No   "Load Name"="SW"   SF=1.0
+   Name="SLS Characteristic"   "Load Name"="SDL"   SF=1.0
+   Name="SLS Characteristic"   "Load Name"="LL"   SF=1.0
+   Name="ULS Envelope"   Type="Envelope"   "Is Auto"=No   "Load Name"="ULS Gravity"   SF=1.0
+   Name="ULS Envelope"   "Load Name"="ULS Wind 0"   SF=1.0
+   Name="ULS Envelope"   "Load Name"="ULS Wind 90"   SF=1.0

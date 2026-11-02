@@ -1,0 +1,6 @@
+LOAD COMBO,COMBO TYPE,SW,SDL,LL,WL_0,WL_90,ULS Gravity,ULS Wind 0,ULS Wind 90
+ULS Gravity,Linear add,1.35,1.35,1.5,,,,,
+ULS Wind 0,Linear add,1.35,1.35,1.05,1.5,,,,
+ULS Wind 90,Linear add,1.35,1.35,1.05,,1.5,,,
+SLS Characteristic,Linear add,1,1,1,,,,,
+ULS Envelope,Envelope,,,,,,1,1,1

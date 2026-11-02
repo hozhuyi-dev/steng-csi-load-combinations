@@ -1,0 +1,22 @@
+  COMBO "ULS Gravity"  TYPE "Linear add"
+  COMBO "ULS Gravity"  LOADCASE "SW"  SF 1.35
+  COMBO "ULS Gravity"  LOADCASE "SDL"  SF 1.35
+  COMBO "ULS Gravity"  LOADCASE "LL"  SF 1.5
+  COMBO "ULS Wind 0"  TYPE "Linear add"
+  COMBO "ULS Wind 0"  LOADCASE "SW"  SF 1.35
+  COMBO "ULS Wind 0"  LOADCASE "SDL"  SF 1.35
+  COMBO "ULS Wind 0"  LOADCASE "LL"  SF 1.05
+  COMBO "ULS Wind 0"  LOADCASE "WL_0"  SF 1.5
+  COMBO "ULS Wind 90"  TYPE "Linear add"
+  COMBO "ULS Wind 90"  LOADCASE "SW"  SF 1.35
+  COMBO "ULS Wind 90"  LOADCASE "SDL"  SF 1.35
+  COMBO "ULS Wind 90"  LOADCASE "LL"  SF 1.05
+  COMBO "ULS Wind 90"  LOADCASE "WL_90"  SF 1.5
+  COMBO "SLS Characteristic"  TYPE "Linear add"
+  COMBO "SLS Characteristic"  LOADCASE "SW"  SF 1.0
+  COMBO "SLS Characteristic"  LOADCASE "SDL"  SF 1.0
+  COMBO "SLS Characteristic"  LOADCASE "LL"  SF 1.0
+  COMBO "ULS Envelope"  TYPE "Envelope"
+  COMBO "ULS Envelope"  LOADCOMBO "ULS Gravity"  SF 1.0
+  COMBO "ULS Envelope"  LOADCOMBO "ULS Wind 0"  SF 1.0
+  COMBO "ULS Envelope"  LOADCOMBO "ULS Wind 90"  SF 1.0
